@@ -1,0 +1,1 @@
+{"root":["./src/vite-env.d.ts","./src/data/generatemocktickets.ts","./src/test/setuptests.ts","./src/app.tsx","./src/main.tsx","./src/components/header.tsx","./src/components/ticketrow.tsx","./src/components/virtualizedticketlist.tsx","./src/test/ticketrow.test.tsx","./src/test/virtualizedticketlist.test.tsx"],"version":"5.6.3"}
