@@ -28,15 +28,11 @@ const TicketRow: React.FC<TicketRowProps> = React.memo(({ ticket }) => {
 
   return (
     <div className='shadow-sm rounded-md border border-gray-300 p-3 bg-sky-400 mb-2'>
-      <div className='flex items-center space-x-4'>
-        <div className='w-1/6 font-bold text-md text-gray-800 truncate'>
-          {subject}
-        </div>
-        <div className={`w-1/6 text-md ${priorityColor}`}>{priority}</div>
-        <div className={`w-1/6 text-md ${statusColor}`}>{status}</div>
-        <div className='w-1/2 text-md text-gray-600 truncate'>
-          {description}
-        </div>
+      <div className='flex items-center space-x-4 font-bold text-md'>
+        <div className='w-1/6  text-gray-800 truncate'>{subject}</div>
+        <div className={`w-1/6  ${priorityColor}`}>{priority}</div>
+        <div className={`w-1/6  ${statusColor}`}>{status}</div>
+        <div className='w-1/2  text-gray-600 truncate'>{description}</div>
       </div>
     </div>
   )
