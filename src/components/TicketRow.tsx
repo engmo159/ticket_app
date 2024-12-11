@@ -27,7 +27,7 @@ const TicketRow: React.FC<TicketRowProps> = React.memo(({ ticket }) => {
       : 'text-green-700'
 
   return (
-    <div className='shadow-sm rounded-md border border-gray-300 p-3 bg-gray-50 mb-2'>
+    <div className='shadow-sm rounded-md border border-gray-300 p-3 bg-sky-400 mb-2'>
       <div className='flex items-center space-x-4'>
         <div className='w-1/6 font-bold text-md text-gray-800 truncate'>
           {subject}

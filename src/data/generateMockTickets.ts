@@ -16,7 +16,7 @@ const generateMockTickets = (count: number): Ticket[] => {
   for (let i = 0; i < count; i++) {
     tickets.push({
       id: i + 1,
-      subject: `Ticket ${i + 1}`,
+      subject: `Ticket  ${i + 1}`,
       priority: getRandomItem(priorities),
       status: getRandomItem(statuses),
       description: `This is the description for ticket ${i + 1}.`,

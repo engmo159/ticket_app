@@ -46,7 +46,7 @@ const VirtualizedTicketList: React.FC<VirtualizedTicketListProps> = ({
     transform: `translateY(${startIndex * itemHeight}px)`,
   }
   return (
-    <div className='bg-white rounded-lg shadow-lg border border-gray-100 overflow-hidden'>
+    <div className='bg-slate-300 rounded-lg shadow-lg border border-gray-100 overflow-hidden'>
       <Header />
       <div
         className='w-full overflow-y-auto'
